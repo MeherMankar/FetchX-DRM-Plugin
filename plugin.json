@@ -1,0 +1,12 @@
+{
+  "id": "dev.fetchx.drm",
+  "name": "FetchX DRM",
+  "version": "0.1.0",
+  "description": "Widevine and PlayReady DRM decryption for FetchX.",
+  "api_version": 1,
+  "manifest_version": 1,
+  "executable": "./fetchx-drm-plugin",
+  "capabilities": ["drm_decrypt", "network_http_request"],
+  "permissions": ["network"],
+  "homepage": "https://github.com/MeherMankar/fetchx-drm-plugin"
+}
